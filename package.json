@@ -11,6 +11,7 @@
     "seed": "node scripts/seedSample.mjs",
     "seed-checker": "node scripts/seed-checker.mjs"
   },
+
   "dependencies": {
     "@pdf-lib/fontkit": "^1.1.1",
     "@react-three/drei": "^10.7.6",
@@ -45,6 +46,10 @@
     "tailwind-merge": "^3.3.1",
     "three": "^0.181.0"
   },
+    "overrides": {
+  "zustand": "5.0.7"
+}
+,
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/leaflet": "^1.9.21",
